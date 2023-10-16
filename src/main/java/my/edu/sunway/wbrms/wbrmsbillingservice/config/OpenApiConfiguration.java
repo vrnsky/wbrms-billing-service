@@ -1,4 +1,4 @@
-package my.edu.sunway.wbrms.wbrmsbillingservice.config.config;
+package my.edu.sunway.wbrms.wbrmsbillingservice.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.servers.Server;

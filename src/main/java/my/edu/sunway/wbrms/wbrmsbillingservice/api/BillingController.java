@@ -1,8 +1,8 @@
-package my.edu.sunway.wbrms.wbrmsbillingservice.config.api;
+package my.edu.sunway.wbrms.wbrmsbillingservice.api;
 
 import lombok.RequiredArgsConstructor;
-import my.edu.sunway.wbrms.wbrmsbillingservice.config.dto.BillItem;
-import my.edu.sunway.wbrms.wbrmsbillingservice.config.dto.BillPayment;
+import my.edu.sunway.wbrms.wbrmsbillingservice.dto.BillItem;
+import my.edu.sunway.wbrms.wbrmsbillingservice.dto.BillPayment;
 import my.edu.sunway.wbrms.wbrmsbillingservice.service.BillingService;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;

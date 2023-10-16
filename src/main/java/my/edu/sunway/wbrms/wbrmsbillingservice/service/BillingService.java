@@ -1,8 +1,8 @@
 package my.edu.sunway.wbrms.wbrmsbillingservice.service;
 
-import my.edu.sunway.wbrms.wbrmsbillingservice.config.dto.BillItem;
-import my.edu.sunway.wbrms.wbrmsbillingservice.config.dto.BillPayment;
-import my.edu.sunway.wbrms.wbrmsbillingservice.config.dto.Tax;
+import my.edu.sunway.wbrms.wbrmsbillingservice.dto.BillItem;
+import my.edu.sunway.wbrms.wbrmsbillingservice.dto.BillPayment;
+import my.edu.sunway.wbrms.wbrmsbillingservice.dto.Tax;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;

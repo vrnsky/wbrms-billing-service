@@ -1,4 +1,4 @@
-package my.edu.sunway.wbrms.wbrmsbillingservice.config.config;
+package my.edu.sunway.wbrms.wbrmsbillingservice.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
