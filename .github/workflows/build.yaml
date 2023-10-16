@@ -49,6 +49,9 @@ jobs:
           distribution: temurin
           java-version: 17
           cache: 'maven'
+      - name: Build, unit tests and integration tests
+        run: |
+          mvn clean package
       - uses: superfly/flyctl-actions/setup-flyctl@master
       - run: flyctl deploy --local-only
         env:
